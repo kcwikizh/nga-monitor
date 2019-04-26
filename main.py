@@ -63,6 +63,7 @@ def main():
                     data = json.load(f)
             else:
                 data = fetchDate(tid)
+                data['guest_token'] = '[secure]'
                 with open(os.path.join(config.BUILD_PATH, '{}.json'.format(tid)), 'w', encoding='utf-8') as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
             contents = list(
