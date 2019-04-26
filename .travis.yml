@@ -1,6 +1,4 @@
 language: python
-python:
-  - 3.7
 install:
   - pip install -r requirements.txt
 branches:
@@ -10,9 +8,9 @@ before_script:
 script:
   - python main.py
 before_deploy:
-  - cp README.md dist/
+  - cp README.md build/
   - if [ $CNAME ]; then
-    echo $CNAME > dist/CNAME;
+    echo $CNAME > build/CNAME;
     fi
 deploy:
   provider: pages

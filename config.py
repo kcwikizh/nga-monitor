@@ -17,6 +17,8 @@ class Config():
         else:
             self.NGA_TIDS = list(
                 map(lambda s: s.strip(), filter(lambda s: s, self.NGA_TIDS.split(','))))
+        if not os.path.exists(self.BUILD_PATH):
+            os.makedirs(self.BUILD_PATH)
 
 
 config = Config()
