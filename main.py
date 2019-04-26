@@ -29,6 +29,8 @@ def parseContent(content: str) -> str:
     # content = re.sub(
     #     '(style|class|cellspacing|rowspan)=("|\').*?("|\')', '', content)
     content = content.replace('点击展开 ...', '')
+    content = content.replace('[randomblock]', '')
+    content = content.replace('[/randomblock]', '')
     content = content.replace('[quote]', '<q>')
     content = content.replace('[/quote]', '</q>')
     content = content.replace('[list]', '<ul>')
@@ -70,7 +72,7 @@ def main():
                                      data.get('tsubject'))
             # write md
             with open(os.path.join(config.BUILD_PATH, '{}.md'.format(tid)), 'w', encoding='utf-8') as f:
-                f.write('#{}\n\n'.format(title))
+                f.write('# {}\n\n'.format(title))
                 f.write('\n---\n\n'.join(contents))
             result.append(
                 '- [{title}](https://bbs.nga.cn/read.php?tid={tid}) ✅\n'.format(title=title, tid=tid))
@@ -81,6 +83,13 @@ def main():
 
     print('处理完成！')
     print('\n'.join(result))
+    with open('README.md', 'r', encoding='utf-8') as f:
+        readme = f.read()
+        readme = re.sub('(## 当前监控页面\n\n)无', r'\1' + '\n'.join(result), readme)
+        readme = re.sub('(## 最后更新时间\n\n)无', r'\g<1>' +
+                        time.strftime('%Y.%m.%d %H:%M:%S', time.localtime()), readme)
+    with open(os.path.join(config.BUILD_PATH, 'README.md'), 'w', encoding='utf-8') as f:
+        f.write(readme)
 
 
 if __name__ == '__main__':

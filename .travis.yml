@@ -5,10 +5,10 @@ branches:
   only:
     - master
 before_script:
+  - export TZ=Asia/Shanghai
 script:
   - python main.py
 before_deploy:
-  - cp README.md build/
   - if [ $CNAME ]; then
     echo $CNAME > build/CNAME;
     fi
