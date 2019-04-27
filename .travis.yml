@@ -1,17 +1,26 @@
 language: python
-install:
-  - pip install -r requirements.txt
 branches:
   only:
     - master
+cache:
+  pip: true
+  directories:
+    - build
+install:
+  - pip install -r requirements.txt
 before_script:
   - export TZ=Asia/Shanghai
+  - if [ -d build ]; then
+    mv build old_build;
+    fi
 script:
   - python main.py
 before_deploy:
   - if [ $CNAME ]; then
     echo $CNAME > build/CNAME;
     fi
+  - python beforeDeploy.py
+  - rm -rf build/*.json
 deploy:
   provider: pages
   name: kcwikizh
