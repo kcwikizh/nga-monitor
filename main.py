@@ -3,6 +3,7 @@ import os
 import time
 import json
 import re
+import traceback
 import sys
 sys.path.append('./lib')
 
@@ -79,10 +80,10 @@ def main():
                 f.write('# {}\n\n'.format(title))
                 f.write('\n---\n\n'.join(contents))
             result.append(
-                '- [{title}](https://bbs.nga.cn/read.php?tid={tid}) ✅\n'.format(title=title, tid=tid))
+                '- [{title}](https://bbs.nga.cn/read.php?tid={tid}) [✅]({tid}.md)\n'.format(title=title, tid=tid))
         except Exception as e:
             result.append('{} ❌{}'.format(tid, e))
-            print(e)
+            traceback.print_exc()
         time.sleep(config.SLEEP)
 
     print('处理完成！')
