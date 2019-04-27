@@ -42,6 +42,9 @@ def parseContent(content: str) -> str:
     content = re.sub(
         r'\[img\](.*?)\[/img\]', r'<img src="\g<1>" />', content)
     content = html2text.html2text(content)
+    #  fix html2text imgurl break
+    content = re.sub(r'!\[\]\([^\)]*?(\n).*?\)',
+                     lambda x: x.group().replace('\n', ''), content)
     return content
 
 
@@ -78,7 +81,7 @@ def main():
             result.append(
                 '- [{title}](https://bbs.nga.cn/read.php?tid={tid}) ✅\n'.format(title=title, tid=tid))
         except Exception as e:
-            result.append('{} {}'.format(tid, e))
+            result.append('{} ❌{}'.format(tid, e))
             print(e)
         time.sleep(config.SLEEP)
 
