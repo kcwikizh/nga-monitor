@@ -82,7 +82,7 @@ def main():
             result.append(
                 '- [{title}](https://bbs.nga.cn/read.php?tid={tid}) [✅]({tid}.md)\n'.format(title=title, tid=tid))
         except Exception as e:
-            result.append('{} ❌{}'.format(tid, e))
+            result.append('- [{tid}](https://bbs.nga.cn/read.php?tid={tid}) ❌{msg}'.format(tid=tid, msg=e))
             traceback.print_exc()
         time.sleep(config.SLEEP)
 
