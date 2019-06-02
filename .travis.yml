@@ -15,11 +15,11 @@ before_script:
     fi
 script:
   - python main.py
+  - python afterScript.py
 before_deploy:
   - if [ $CNAME ]; then
     echo $CNAME > build/CNAME;
     fi
-  - python beforeDeploy.py
   - rm -rf build/*.json
 deploy:
   provider: pages

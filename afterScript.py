@@ -42,7 +42,7 @@ def main():
         print('存在文件变动，将部署新构建')
         return
     print('不存在文件变动，将使用旧时间戳部署')
-    copyfile(os.path.join(OLD_BUILD_PATH, 'README.md'),os.path.join(config.BUILD_PATH, 'README.md'))
+    copyfile(os.path.join(OLD_BUILD_PATH, 'README.md'), os.path.join(config.BUILD_PATH, 'README.md'))
 
 if __name__ == "__main__":
     main()
