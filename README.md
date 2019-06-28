@@ -8,11 +8,12 @@
 
 - [法瑟林学院 - 地图配置2.0](https://bbs.nga.cn/read.php?tid=16820397) [✅](16820397.md)
 
-- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
+- [舰队collection - [罗盘娘攻略度：52.3%]梦美的常规图带路 &amp; 出击配置 v2.1[玩砍口垒要会中文]](https://bbs.nga.cn/read.php?tid=16334445) [✅](16334445.md)
+
 
 ## 最后更新时间
 
-2019.06.27 04:21:06
+2019.06.29 04:21:23
 
 ## 用法
 
