@@ -6,14 +6,12 @@
 
 ## 当前监控页面
 
-- [法瑟林学院 - 地图配置2.0](https://bbs.nga.cn/read.php?tid=16820397) [✅](16820397.md)
-
-- [舰队collection - [罗盘娘攻略度：52.5%]梦美的常规图带路 &amp; 出击配置 v2.1[玩砍口垒要会中文]](https://bbs.nga.cn/read.php?tid=16334445) [✅](16334445.md)
-
+- [16820397](https://bbs.nga.cn/read.php?tid=16820397) ❌操作失败 47 - 帐号权限不足
+- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
 
 ## 最后更新时间
 
-2019.07.08 04:26:16
+2019.07.09 04:26:58
 
 ## 用法
 
