@@ -7,12 +7,11 @@
 ## 当前监控页面
 
 - [16820397](https://bbs.nga.cn/read.php?tid=16820397) ❌操作失败 47 - 帐号权限不足
-- [舰队collection - [罗盘娘攻略度：52.9%]梦美的常规图带路 &amp; 出击配置 v2.1[玩砍口垒要会中文]](https://bbs.nga.cn/read.php?tid=16334445) [✅](16334445.md)
-
+- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
 
 ## 最后更新时间
 
-2019.08.17 04:48:19
+2019.08.19 04:49:17
 
 ## 用法
 
