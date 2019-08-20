@@ -6,12 +6,12 @@
 
 ## 当前监控页面
 
-- [16820397](https://bbs.nga.cn/read.php?tid=16820397) ❌操作失败 47 - 帐号权限不足
+- [16820397](https://bbs.nga.cn/read.php?tid=16820397) ❌操作失败 12 - 未登录
 - [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
 
 ## 最后更新时间
 
-2019.08.19 04:49:17
+2019.08.21 04:50:22
 
 ## 用法
 
