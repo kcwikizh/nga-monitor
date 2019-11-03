@@ -6,11 +6,11 @@
 
 ## 当前监控页面
 
-- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌操作失败 12 - 未登录
+- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
 
 ## 最后更新时间
 
-2019.11.03 05:22:40
+2019.11.04 05:23:15
 
 ## 用法
 
