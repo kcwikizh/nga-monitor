@@ -6,12 +6,11 @@
 
 ## 当前监控页面
 
-- [舰队collection - [罗盘娘攻略度：55.0%]梦美的常规图带路 &amp; 出击配置 v2.5[这瓜超甜]](https://bbs.nga.cn/read.php?tid=16334445) [✅](16334445.md)
-
+- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
 
 ## 最后更新时间
 
-2020.02.13 06:13:48
+2020.02.14 06:14:42
 
 ## 用法
 
