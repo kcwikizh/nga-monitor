@@ -6,11 +6,11 @@
 
 ## 当前监控页面
 
-- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌HTTPSConnectionPool(host='ngabbs.com', port=443): Max retries exceeded with url: /app_api.php?__lib=post&__act=list (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:847)'),))
+- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
 
 ## 最后更新时间
 
-2020.02.25 06:21:57
+2020.02.26 06:22:38
 
 ## 用法
 
