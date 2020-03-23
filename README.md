@@ -6,11 +6,12 @@
 
 ## 当前监控页面
 
-- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
+- [舰队collection - [罗盘娘攻略度：58.6%]梦美的常规图带路 &amp; 出击配置 v2.6[编辑帖子会随机沟]](https://bbs.nga.cn/read.php?tid=16334445) [✅](16334445.md)
+
 
 ## 最后更新时间
 
-2020.03.23 06:35:53
+2020.03.24 06:36:44
 
 ## 用法
 
