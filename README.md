@@ -6,11 +6,11 @@
 
 ## 当前监控页面
 
-- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
 
 ## 最后更新时间
 
-2020.07.09 07:32:56
+2020.07.15 07:34:51
 
 ## 用法
 
