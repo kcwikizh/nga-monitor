@@ -6,11 +6,12 @@
 
 ## 当前监控页面
 
-- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌HTTPSConnectionPool(host='ngabbs.com', port=443): Max retries exceeded with url: /app_api.php?__lib=post&__act=list (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:847)'),))
+- [舰队collection - [罗盘娘攻略度：59.1%]梦美的常规图带路 &amp; 出击配置 v2.7[无情的蓝贴机器]](https://bbs.nga.cn/read.php?tid=16334445) [✅](16334445.md)
+
 
 ## 最后更新时间
 
-2020.09.01 08:00:27
+2020.09.02 08:00:55
 
 ## 用法
 
