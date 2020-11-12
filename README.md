@@ -6,11 +6,11 @@
 
 ## 当前监控页面
 
-- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
+- [16334445](https://bbs.nga.cn/read.php?tid=16334445) ❌("Connection broken: InvalidChunkLength(got length b'', 0 bytes read)", InvalidChunkLength(got length b'', 0 bytes read))
 
 ## 最后更新时间
 
-2020.10.31 09:18:32
+2020.11.12 09:11:45
 
 ## 用法
 
